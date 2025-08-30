@@ -4,21 +4,6 @@ const swiper = new Swiper('.plants__swiper', {
 	pagination: {
 		el: '.swiper-pagination',
 	},
-	// pagination: {
-	// 	el: '.plants__number',
-	// 	type: 'fraction',
-	// 	renderFraction: function (currentClass, totalClass) {
-	// 		return (
-	// 			'<span class="' +
-	// 			currentClass +
-	// 			'"></span>' +
-	// 			' из ' +
-	// 			'<span class="' +
-	// 			totalClass +
-	// 			'"></span>'
-	// 		);
-	// 	},
-	// },
 	navigation: {
 		nextEl: '.plants__arrow--next',
 		prevEl: '.plants__arrow--back',
